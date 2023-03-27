@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dicoding.picodiploma.fovid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FOVID">
+        <activity
+            android:name=".view.hospital.ListCityHospitalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.hospital.ListHospitalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.faskes.ListCityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.hospital.HospitalDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.hospital.HospitalActivity"
+            android:exported="false"
+            android:label="@string/rumah_sakit_rujukan" />
+        <activity
+            android:name=".view.faskes.FaskesDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.faskes.ListFaskesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.daily.TotalActivity"
+            android:exported="false"
+            android:label="@string/total"/>
+        <activity
+            android:name=".view.province.ProvinceDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.faskes.FaskesActivity"
+            android:exported="false"
+            android:label="@string/faskes" />
+        <activity
+            android:name=".view.about.AboutActivity"
+            android:exported="false"
+            android:label="@string/about_app" />
+        <activity
+            android:name=".view.province.ProvinceActivity"
+            android:exported="false"
+            android:label="@string/province" />
+        <activity
+            android:name=".view.daily.DailyActivity"
+            android:exported="false"
+            android:label="@string/daily" />
+        <activity
+            android:name=".view.main.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.main.MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

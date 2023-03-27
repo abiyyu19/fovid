@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">FOVID</string>
+    <string name="logo">Logo FOVID</string>
+
+    <string name="daily_report">Statistik Kasus Harian Covid-19 Indonesia</string>
+    <string name="total_report">Statistik Total Kasus Covid-19 Indonesia</string>
+    <string name="province_report">Statistik Total Kasus Covid-19 di %1$s</string>
+    <string name="stat_desc">Per tanggal %1$s</string>
+    <string name="updated_on">Diperbarui %1$s</string>
+
+    <string name="positive_count">Jumlah Positif</string>
+    <string name="positive">Positif</string>
+    <string name="recover_count">Jumlah Sembuh</string>
+    <string name="recover">Sembuh</string>
+    <string name="die_count">Jumlah Meninggal</string>
+    <string name="die">Meninggal</string>
+    <string name="hospitalized_count">Jumlah Dirawat</string>
+    <string name="hospitalized">Dirawat</string>
+
+    <string name="case_count">Jumlah Kasus</string>
+    <string name="case_description">Kasus</string>
+
+    <string name="exit_button">Exit Button</string>
+    <string name="exit">Keluar</string>
+
+    <string name="statistic_image">Statistic Image</string>
+
+    <string name="daily">Kasus\nHarian</string>
+    <string name="total">Total\nKasus</string>
+    <string name="province">Provinsi</string>
+    <string name="faskes">Faskes\nVaksinasi</string>
+    <string name="rumah_sakit_rujukan">Rumah Sakit Rujukan</string>
+    <string name="faq">Tanya\nJawab</string>
+
+    <string name="category">Lihat Info Berdasarkan Kategori</string>
+    <string name="daily_button">daily button</string>
+    <string name="province_button">province button</string>
+    <string name="faskes_button">faskes button</string>
+    <string name="total_button">total button</string>
+    <string name="faq_button">faq button</string>
+    <string name="rumah_sakit_rujukan_button">rumah sakit rujukan button</string>
+
+    <string name="about">about application</string>
+    <string name="app_desc">FOVID adalah aplikasi yang menyediakan informasi Covid-19 di Indonesia kepada semua orang\n\nCreated by: Abiyyu\nKelas: 3KA21\nNPM: 13119957</string>
+    <string name="about_app">Tentang FOVID</string>
+    <string name="province_name">Nama Provinsi</string>
+    <string name="next_icon">next icon</string>
+    <string name="info_covid">IN<font color="#0E4E96">FO</font> CO<font color="#0E4E96">VID</font></string>
+
+    <string name="choose_province">Pilih Provinsi Dulu Yuk</string>
+    <string name="search_hint">Masukkan Provinsi</string>
+    <string name="search_hint_city">Masukkan Daerah</string>
+    <string name="search_hint_faskes">Masukkan Faskes</string>
+    <string name="search_hint_hospital">Masukkan Rumah Sakit Rujukan</string>
+
+    <string name="choose_province_dialog">Pilih Provinsi</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="faskes_name">Nama Faskes</string>
+    <string name="name_unknown">Faskes Vaksin belum diketahui Namanya</string>
+    <string name="address_unknown">Faskes Vaksin belum diketahui Alamatnya</string>
+    <string name="address_unknown_hospital">Rumah Sakit Rujukan belum diketahui Alamatnya</string>
+
+    <string name="faskes_detail">Detail Faskes Vaksin</string>
+    <string name="hospital_detail">Detail Rumah Sakit Rujukan</string>
+
+    <string name="faskes_kind">Jenis Faskes</string>
+    <string name="vaccine_status">Status Vaksinasi</string>
+    <string name="no_telp">No. Telp</string>
+    <string name="address">Alamat</string>
+    <string name="maps">Maps</string>
+
+    <string name="not_available">Tidak Tersedia</string>
+    <string name="region">Wilayah</string>
+    <string name="hospital_name">Nama Rumah Sakit</string>
+
+    <string-array name="province">
+        <item>Jawa Barat</item>
+        <item>Jakarta</item>
+        <item>Jawa Timur</item>
+        <item>Jawa Tengah</item>
+        <item>Riau</item>
+        <item>Bali</item>
+        <item>Sumatera Barat</item>
+        <item>Aceh</item>
+        <item>Bengkulu</item>
+        <item>Papua Barat</item>
+        <item>Sulawesi Tengah</item>
+
+
+    </string-array>
+</resources>
